@@ -175,13 +175,15 @@ footer {
 .social-icons {
 	display: flex;
 	list-style: none;
-	margin: 1.5rem;
-	padding: -1rem
+	margin-left: .5rem;
+	margin-right: .5rem;
 }
 .social-icons i {
+	display:block;
 	color: white;
 	font-size: 1.5rem;
 	padding: .5rem 1rem;
+	margin-left: 1rem;
 }
 .copyright {
 	font-family:"Remachine", cursive;
