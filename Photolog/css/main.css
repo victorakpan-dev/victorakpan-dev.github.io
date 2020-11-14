@@ -1,0 +1,216 @@
+@font-face {
+	font-family: "JosefinSans-Regular";
+	src: url("../fonts/JosefinSans-Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Remachine";
+	src: url("../fonts/RemachineScript_Personal_Use.ttf") format("truetype");
+}
+@font-face {
+	font-family: "SourceSans";
+	src: url("../fonts/SourceSansPro-Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Ubuntu";
+	src: url("../fonts/Ubuntu-Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Work-Sans";
+	src: url("../fonts/WorkSans-Regular.ttf") format("truetype");
+}
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	padding-top:4.0rem;
+	font-family: "Ubuntu", sans-serif;
+}
+.logo {
+	font-family: "SourceSans", sans-serif;
+	font-size: 22px;
+}
+.nav-link {
+	color: teal !important;
+}
+.fa-camera {
+	color: teal !important;
+}
+.hero {
+	padding: 15px;
+	height: 100%;
+	width:100%;
+	background-color:teal;
+	opacity:0.5;
+	color: #fff;
+	font-family:"JosefinSans-Regular", sans-serif;
+}
+.hero h1 {
+	border-bottom: .5px solid #aaa;
+}
+.btn-primary {
+	display: inline-block;
+	background-color:transparent;
+	padding: .3rem;
+	color: black;
+}
+.our-promises {
+	padding:10px;
+	height:100%;
+	width:100%;
+	background-image:url("../images/image2.jpg");
+	background-size:cover;
+	background-position:center;
+	position:relative;
+	color:teal;
+}
+.our-promises h2 {
+	border-bottom: 1px solid white;
+}
+.our-promises h3 p {
+	padding: 10px;
+}
+.btn-secondary {
+	display: inline-block;
+	background-color: transparent;
+	padding: .3rem;
+}
+.our-photographers {
+	padding: 10px;
+	height: 100%;
+	width: 100%;
+	background-image: url("../images/image4.jpg");
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	color: white;
+}
+.our-photographers h2 {
+	border-bottom: 1px solid white;
+	border-margin-right: 5rem;
+}
+.our-photographers p {
+	padding-top: 2px;
+}
+.btn-blue {
+	display: inline-block;
+	color: white !important;
+	border-radius: 10px;
+	border-color: teal !important;
+}
+.testimonies {
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	background-color: #f2f2f2;
+}
+.testimonies h2 {
+	color: teal;
+	margin-left: .5rem;
+}
+.testimonies .container h3 {
+	display: block;
+	text-align: center;
+}
+.testimonies h3 {
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 15px;
+}
+.testimonies hr {
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
+.testimonies p {
+	padding: 5px 10px 15px 10px;
+	margin: .5rem;
+	font-size: 16px;
+}
+footer {
+	background-color: #1abc9c;
+	font-family: "Work-Sans", sans-serif;
+}
+.back-to-top {
+	text-align: center;
+	border-radius: 0% !important;
+	/*position: relative;*/
+}
+.back-to-top i {
+	color: white !important;
+	font-size: 1rem;
+	animation-name: showsUp;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+.back-to-top a {
+	color: white;
+	text-decoration: none;
+}
+.back-to-top a::visited {
+	text-decoration: none;
+}
+.footer__content {
+	padding-top: 2rem;
+	padding-bottom: 0;
+	margin: 0 auto;
+	display: inline-block;
+}
+.footer__content h4 {
+	font-weight: bold;
+	text-align: right;
+}
+.footer__content hr {
+	margin-left: 7rem;
+	padding-left: 3rem;
+}
+.social {
+	padding: 2px;
+}
+.social-icons {
+	display: flex;
+	list-style: none;
+	margin: 1.5rem;
+	padding: -1rem
+}
+.social-icons i {
+	color: white;
+	font-size: 1.5rem;
+	padding: .5rem 1rem;
+}
+.copyright {
+	font-family:"Remachine", cursive;
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-size: .8rem
+}
+.copyright a {
+	border-bottom: .2px solid white;
+}
+
+
+@media screen and (max-width: 1000px) {
+	p {
+		font-size 22px;
+	}
+}
+@keyframes showsUp {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+}
