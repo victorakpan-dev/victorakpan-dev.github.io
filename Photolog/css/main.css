@@ -196,6 +196,59 @@ footer {
 	border-bottom: .2px solid white;
 }
 
+/* About Section */
+
+.about-hero {
+	padding: 15px;
+	font-family: "JosefinSans-Regular", sans-serif;
+	background-image: url("../images/image1.jpg");
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	color: teal;
+	background-color: teal;
+}
+.about-our-promises {
+	padding: 12px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 128,128,1);
+	color: #f3f3f3f3;
+	z-index: 1000;
+}
+.about-our-photographers {
+	padding: 12px;
+	width 100%;
+	height: 100%;
+	background-image: url("../images/image5.jpg");
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	color: white;
+}
+.service {
+	padding: 2px;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 128,128,0.2);
+}
+.service h2 {
+	padding: 5px 5px 0px 5px;
+}
+.service hr {
+	margin-right: 6rem;
+}
+.service img {
+	height: 100%;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.service p {
+	font-size: 18px;
+	line-height: 2rem;
+}
+
 
 @media screen and (max-width: 1000px) {
 	p {
