@@ -250,11 +250,6 @@ footer {
 }
 
 
-@media screen and (max-width: 1000px) {
-	p {
-		font-size 22px;
-	}
-}
 @keyframes showsUp {
     0% {
         opacity: 0;
