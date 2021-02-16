@@ -1,1 +1,1 @@
-**Photolog**
+*Photolog*
