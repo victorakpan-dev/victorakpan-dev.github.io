@@ -1,13 +1,13 @@
 This repo contain my projects
 
-###Photolog
+Photolog
 
-<a href="victorakpan-dev.github.io/Photolog" rel="_blank">visit here</a>
+<a href="victorakpan-dev.github.io/Photolog" rel="_external">visit here</a>
 
-###Food Ninja
+Food Ninja
 
 A tutorial I followed 
 
-<a href="victorakpan-dev.github.io/Foodninja" rel="_blank">visit here</a>
+<a href="victorakpan-dev.github.io/Foodninja" rel="_external">visit here</a>
 
 
