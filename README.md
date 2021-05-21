@@ -1,13 +1,17 @@
 This repo contain my projects
 
-Photolog
+# Photolog
 
-<a href="victorakpan-dev.github.io/Photolog" rel="_external">visit here</a>
+[visit here](https://victorakpan-dev.github.io/Photolog)
 
-Food Ninja
+# Food Ninja
 
-A tutorial I followed 
+A tutorial I followed
 
-<a href="victorakpan-dev.github.io/Foodninja" rel="_external">visit here</a>
+[visit here](https://victorakpan.github.io/Foodninja)
+
+# Circle Trust
+
+[visit here](https://victorakpan.github.io/circle-trust)
 
 
